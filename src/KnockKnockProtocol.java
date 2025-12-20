@@ -28,7 +28,7 @@ public class KnockKnockProtocol {
 				theOutput = clues[currentJoke];
 				state = SENTCLUE;
 			} else {
-				theOutput = "You're supposed to say \"Who's there?\"! " + "Try again. Knock! Knock!";
+				theOutput = "You'rsupposed to say \\\"Who's there?\\\"! \" + \"Try again. Knock! Knocke !";
 			}
 		}
 		else if (state == SENTCLUE) {

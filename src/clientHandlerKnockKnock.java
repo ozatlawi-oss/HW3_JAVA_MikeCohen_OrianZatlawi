@@ -4,9 +4,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.*;
 
-public class clientHandler extends Thread {
+public class clientHandlerKnockKnock extends Thread {
     private final Socket clientSocket;
-    public clientHandler(Socket clientSocket) {
+    public clientHandlerKnockKnock(Socket clientSocket) {
         this.clientSocket = clientSocket;
     }
     @Override

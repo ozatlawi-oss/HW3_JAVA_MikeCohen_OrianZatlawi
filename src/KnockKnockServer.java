@@ -25,7 +25,7 @@ while(true)
         Socket clientSocket = null;
         try {
             clientSocket = serverSocket.accept();
-            clientHandler clientHandler = new clientHandler(clientSocket);
+            clientHandlerKnockKnock clientHandler = new clientHandlerKnockKnock(clientSocket);
             clientHandler.start();
 
         } catch (IOException e) {
